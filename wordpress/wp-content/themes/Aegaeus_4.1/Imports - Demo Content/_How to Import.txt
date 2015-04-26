@@ -1,0 +1,69 @@
+=== How to import XML file into WordPress : ===  
+
+1. Open your WordPress Dashboard. Make sure that, Aegaeus theme is installed and activated, also make sure you have installed required plugins.
+2. Click Settings on your left dashboard sidebar menu.
+3. Click Import
+4. Click WordPress Import and install additional plugin if needed.
+5. Select the XML file in Demo Content folder to import. (aegaeus_export.xml)
+6. Check to upload all content if you want images to be uploaded.
+7. Attach all posts to your user.
+8. This may take a while (up to 15 minutes). Please wait and don’t interrupt the process.
+
+7. After that, you need to select your home page.
+	7.1 Go to Settings > Reading.
+	7.2 Front page displays > Select : A static page (select below).
+	7.3 In the dropdown below, select page named "Home".
+	7.4 Posts page leave to ---Select---
+	7.5 Click Save Changes.
+
+8. After that, you need to choose your menu.
+	8.1 Go to Appearance > Menus.
+	8.2 In Theme Location dropdowns, select Main menu and Footer menu.
+
+9. After that IMPORT Theme Options.
+	9.0 Open theme_options_export.txt (Aegaeus_4.0 / Imports - Demo Content / Theme Options Export)
+	9.1 Go to Appearance > Theme Options > Backup Options
+	9.2 Find Transfer Theme Options Data field.
+	9.3 Copy the content from theme_options_export.txt to that field and click Import Options.
+
+Here's a video instruction if needed (without theme options import).
+http://www.youtube.com/watch?v=ST40OORShLg&feature=related
+
+
+=== How to import Revolution Slider content === 
+
+1. Make sure you have installed Aegaeus theme.
+2. Make sure you have imported Aegaeus XML file and theme options.
+3. Make sure Revolution Slider plugin is installed. Appearance > Install Plugins.
+4. Go to Revolution Slider in WordPress Dashboard.
+5. Click "Import Slider” green button on the right hand side.
+6. Choose ‘homeslider.zip’.
+7. Your slider is now imported.
+
+15. Repeat the process (from step #5) for every slider export.
+
+
+=== How to import Theme Options Settings ===
+
+1. Open your WordPress Dashboard, make sure Aegaeus theme is installed and activated.
+2. Go to Appearance > Theme Options and go to tab Backup Options.
+3. In the Transfer Theme Options Data paste the contents of the theme.option.export.txt
+4. Click Import Options
+5. Click Save All Changes
+
+
+=== How to import Widgets ===
+
+1. It's important to import the Theme Options Settings first.
+2. Make sure you have installed Revolution Slider, Layer Slider and Contact Form 7 plugins first and that you have deleted all widgets from widgetised areas in Appearance > Widgets.
+3. Install and activate plugin "Widget Importer Exporter". (Appearance > Install Plugins).
+4. Go to Tools > Widget Import/Export.
+5. Choose file. (Aegaeus_3.0 > Import - Demo Content > widgets.wie)
+6. Click Import.
+
+
+Feel free to visit our support forum : http://support.hb-themes.com
+Our homepage : http://hb-themes.com
+
+Thanks for using our theme!
+HB-Themes

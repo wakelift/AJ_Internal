@@ -1,0 +1,53 @@
+/*-----------------------------------------------------------------------------------
+
+	RTL Styles
+	Aegaeus Theme
+	Copyright 2014 - HB-Themes
+
+-----------------------------------------------------------------------------------*/
+
+@import url(css/style.css) screen;
+
+#slider-section, #main-navigation-wrapper, #footer, .separator, #page-title, #fullwidth-wrapper .breadcrumb-wrapper, .fullwidth-services, .break-section, #sidebar-page-wrapper {
+margin-left:auto !important;
+margin-right: -30px !important;
+}
+
+ul.prestyled li, .widget_categories ul li, .widget_meta ul li, .widget_recent_entries ul li, .widget_pages ul li, .widget_archives ul li, .widget_nav_menu ul li, .widget_recent_comments ul li {
+background-image:none !important;
+}
+
+#search-404 #submit-search {
+right:auto;
+left:0px !important;
+}
+#nav li { float:right !important; }
+
+#logo-wrap { float:right !important; }
+#social-wrap { float:left !important; }
+#logo {margin:0 !important;}
+
+#nav > li a.sf-with-ul:after { padding-left: 10px; float:right; }
+.the-icons li span { padding-left: 10px; }
+
+#nav > li > ul { left: auto; right: 0px; }
+
+span.dropcap { float:right; margin: 2px 0 0px 10px }
+h6 span[class *= "icon-"] { margin-right: 0; margin-left: 15px; }
+.circle-feature { float:right; }
+.circle-description { margin-left: 0; margin-right: 55px; }
+.trigger a { background-position: 2% center; }
+.read-more-button span { display: none; }
+#footer-navigation li span { margin-left: 5px; }
+#footer-navigation li:first-child span { display: inline; }
+#footer-navigation li:last-child span { display: none; }
+ul.tabs li { float: right; }
+
+.callout-box { border-left: none !important; border-right: solid 2px #ff6838; }
+.callout-box-inner .button { float:left; }
+
+#wrapper.stretched-layout #nav ul ul, #nav ul ul { left: auto; right: 100% !important; }
+#nav li li a.sf-with-ul:after { float: left; content: "\f053"; }
+#nav li li a {padding-right: 15px !important}
+
+/* Enter custom CSS code below  --------------------------------------------------*/
